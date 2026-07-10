@@ -109,7 +109,7 @@ function ProjectCard({ project, delay }: { project: Project; delay: number }) {
 
 export default function Projects() {
   return (
-    <section className="px-16 pt-4 pb-28">
+    <section className="px-8 pt-4 pb-28">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
         {PROJECTS.map((project, i) => (
           <ProjectCard key={project.title} project={project} delay={i * 100} />

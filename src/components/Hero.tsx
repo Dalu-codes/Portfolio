@@ -6,9 +6,9 @@ import profile from './profile.jpg';
 
 export default function Hero() {
   return (
-    <section className="px-16 pt-10 pb-24 grid grid-cols-1 lg:grid-cols-2 gap-x-16 gap-y-12 items-start">
+    <section className="px-8 pt-10 pb-24 grid grid-cols-1 lg:grid-cols-2 gap-x-16 gap-y-12 items-start">
       <div>
-        <nav className="flex items-center justify-between mb-40">
+        <nav className="flex items-center justify-between mb-20">
           <span className="text-[15px] font-semibold tracking-wide">DALU</span>
           <NavLinks />
         </nav>

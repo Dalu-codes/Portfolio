@@ -99,7 +99,7 @@ function SkillsColumn({ category, delay }: { category: SkillCategory; delay: num
 
 export default function Skills() {
   return (
-    <section className="px-16 pt-4 pb-28">
+    <section className="px-8 pt-4 pb-28">
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-12">
         {SKILL_CATEGORIES.map((category, i) => (
           <SkillsColumn key={category.title} category={category} delay={i * 80} />

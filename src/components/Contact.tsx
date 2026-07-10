@@ -15,7 +15,7 @@ const ITEMS: ContactItem[] = [
 
 export default function Contact() {
   return (
-    <section className="px-16 pt-10 pb-24">
+    <section className="px-8 pt-10 pb-24">
       <div className="flex flex-col gap-6">
         {ITEMS.map((item, i) => (
           <Reveal key={item.text} delay={i * 100} className="flex items-center gap-3">
