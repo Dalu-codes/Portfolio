@@ -8,7 +8,7 @@ interface SectionBarProps {
 export default function SectionBar({ leftLabel, id }: SectionBarProps) {
   return (
     <div id={id} className="px-8 py-8 flex items-center justify-between">
-      <span className="text-[13px] tracking-wide font-medium text-white/80">{leftLabel}</span>
+      {/* <span className="text-[13px] tracking-wide font-medium text-white/80">{leftLabel}</span> */}
       <NavLinks />
     </div>
   );
