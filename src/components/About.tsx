@@ -4,7 +4,7 @@ import profile from './profile.jpg';
 
 export default function About() {
   return (
-    <section className="px-16 pt-4 pb-28 text-center">
+    <section className="px-8 pt-4 pb-28 text-center">
       <Reveal>
         <h2 className="text-2xl font-bold mb-12">ABOUT</h2>
       </Reveal>
