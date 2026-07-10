@@ -11,18 +11,18 @@ export default function App() {
     <div>
       <Hero />
 
-      <SectionBar leftLabel="PROJECTS" />
+      <SectionBar />
       <div id="projects">
         <Projects />
       </div>
 
-      <SectionBar leftLabel="SKILLS" id="skills-bar" />
+      <SectionBar/>
       <Skills />
 
-      <SectionBar leftLabel="ABOUT" id="about" />
+      <SectionBar/>
       <About />
 
-      <SectionBar leftLabel="CONTACT" id="contact" />
+      <SectionBar/>
       <Contact />
 
       <Footer />
