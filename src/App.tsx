@@ -16,13 +16,13 @@ export default function App() {
         <Projects />
       </div>
 
-      <SectionBar/>
+      <SectionBar id="skills-bar" />
       <Skills />
 
-      <SectionBar/>
+      <SectionBar id="about" />
       <About />
 
-      <SectionBar/>
+      <SectionBar id="contact" />
       <Contact />
 
       <Footer />
