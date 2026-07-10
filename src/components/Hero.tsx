@@ -16,7 +16,7 @@ export default function Hero() {
         <Reveal className="max-w-md">
           <h1 className="text-4xl font-bold mb-5 tracking-tight">HELLO!</h1>
           <p className="text-[15px] leading-7 text-white/70 font-regular mb-9">
-            My name is Ezealigo Chidalu Ella, a software engineer with a UI/UX design background. Building full stack applications using Java, Spring Boot, and React.
+            My name is Chidalu Ezealigo Ella, a software engineer with a UI/UX design background. Building full stack applications using Java, Spring Boot, and React.
           </p>
           <div className="flex items-center gap-4">
             <button
