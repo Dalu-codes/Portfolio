@@ -48,11 +48,11 @@ export default function Hero() {
         </div>
       </Reveal> */}
      <Reveal delay={150}>
-      <div className="rounded-md w-full aspect-square overflow-hidden bg-transparent flex items-center justify-center">
+      <div className="rounded-md w-full aspect-[3/4] overflow-hidden">
         <img 
           src={profile} 
           alt="Profile Picture" 
-          className="w-full h-full object-cover scale-50 transition-transform" 
+          className="w-full h-full object-cover" 
         />
       </div>
     </Reveal>
