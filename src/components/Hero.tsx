@@ -52,7 +52,7 @@ export default function Hero() {
         <img 
           src={profile} 
           alt="Profile Picture" 
-          className="w-full h-full object-cover scale-90 transition-transform" 
+          className="w-full h-full object-cover scale-70 transition-transform" 
         />
       </div>
     </Reveal>
