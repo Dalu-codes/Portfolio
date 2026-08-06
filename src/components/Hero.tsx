@@ -42,11 +42,20 @@ export default function Hero() {
         </Reveal>
       </div>
 
-      <Reveal delay={150}>
+      {/* <Reveal delay={150}>
         <div className="img-zoom rounded-md w-full aspect-square">
           <img src={profile} alt="Profile Picture" />
         </div>
-      </Reveal>
+      </Reveal> */}
+      <Reveal delay={150}>
+      <div className="rounded-md w-full aspect-square overflow-hidden">
+        <img 
+          src={profile} 
+          alt="Profile Picture" 
+          className="w-full h-full object-cover" 
+        />
+      </div>
+    </Reveal>
     </section>
   );
 }
