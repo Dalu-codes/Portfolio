@@ -43,7 +43,7 @@ export default function Hero() {
       </div>
 
       <Reveal delay={150}>
-        <div className="img-zoom rounded-md w-full aspect-square">
+        <div className="rounded-md w-full aspect-square">
           <img src={profile} alt="Profile Picture" />
         </div>
       </Reveal>
