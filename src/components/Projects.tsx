@@ -34,7 +34,7 @@ const PROJECTS: Project[] = [
     buttonLabel: "View Live Demo",
   },
   {
-    title: "Landing Page",
+    title: "Figma-to-React Landing Page",
     description:
       "A project demonstrating the complete design-to-development workflow: from high-fidelity Figma wireframe through to a production-grade, deployed landing page.",
     stack: ["Figma design", "React", "TypeScript"],
