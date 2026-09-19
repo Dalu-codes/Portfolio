@@ -1,4 +1,4 @@
-# JOHN — Portfolio
+# Portfolio
 
 React + TypeScript + Tailwind CSS (Vite).
 
